@@ -87,3 +87,14 @@ button:hover {
     background-color:#313233 ;
 }
 
+
+@media (max-width:720px) {
+
+    body {
+        width: 100%;
+    }
+    .calculator {
+        margin: 0 10px;
+        width: 100%;
+    }
+}
