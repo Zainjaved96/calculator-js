@@ -82,3 +82,8 @@ button:hover {
     background-color: #787d83;
     cursor:pointer;
 }
+
+.enabled {
+    background-color:#313233 ;
+}
+

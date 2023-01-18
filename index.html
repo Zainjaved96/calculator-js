@@ -22,9 +22,9 @@
             <button onclick="ac()">AC</button>
         </div>
         <div class="row">
-            <button class="btn">Inv</button>
-            <button  onclick="sin()">sin</button>
-            <button class="btn">In</button>
+            <button id="inverse" onclick="inverse()">Inv</button>
+            <button id="sin" onclick="sin()">sin</button>
+            <button onclick="natLog()">In</button>
             <button class="btn">7</button> 
             <button class="btn">8</button>
             <button class="btn">9</button>
@@ -33,7 +33,7 @@
         
         <div class="row">
             <button onclick="pi()">&#960</button>
-            <button onclick="cos()">cos</button>
+            <button id="cos" onclick="cos()">cos</button>
             <button onclick="log()">log</button>
             <button class="btn num">4</button>
             <button class="btn num">5</button>
@@ -41,19 +41,18 @@
             <button class="btn">x</button>
         </div>
         <div class="row">
-            <button class="btn">e</button>
-            <button onclick="tan()">tan</button>
+            <button onclick="e()">e</button>
+            <button id="tan" onclick="tan()">tan</button>
             <button onclick="sqrt()">&#8730</button>
             <button class="btn num">1</button>
             <button class="btn num">2</button>
             <button class="btn num">3</button>
             <button class="btn">-</button>
         </div>
-
         <div class="row">
             <button class="btn">Ans</button>
-            <button class="btn">EXP</button>
-            <button >x^y</button>
+            <button onclick="exp()">EXP</button>
+            <button onclick="sqr()" >x^2</button>
             <button class="btn num">0</button>
             <button class="btn num">.</button>
             <button id="result" onclick="result()">=</button>
