@@ -7,16 +7,16 @@
     <link rel="stylesheet" href="index.css">
     <title>Calculator</title>
 </head>
-<body>
+<body id="body">
     <div class="calculator">
-        <h1 class="cal-head">Calculator</h1>
+        <h1 class="cal-head" id="cal-head">Calculator</h1>
         <div class="display">
         <input type="text" name="" id="screen">
         </div>
         <div class="row">
-            <button class="btn">Rad</button>
-            <button class="btn">Deg</button>
-            <button class="btn">x!</button>
+            <button id = "radian" class="enabled" onclick="deg_rad(this)">Rad</button>
+            <button  onclick="ce()">CE</button>
+            <button onclick="fact()">x!</button>
             <button class="btn">(</button>
             <button class="btn">)</button>
             <button class="btn">%</button>
@@ -51,7 +51,7 @@
             <button class="btn">-</button>
         </div>
         <div class="row">
-            <button class="btn">Ans</button>
+            <button onclick="modeswitch()" id="mode">Dark</button>
             <button onclick="exp()">EXP</button>
             <button onclick="sqr()" >x^2</button>
             <button class="btn num">0</button>

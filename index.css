@@ -38,8 +38,8 @@ body {
     padding-right: .5em;
     background: #ecf0f3;
     border-radius: 6px;
-    box-shadow: inset 8px 8px 8px #cbced1,
-        inset -8px -8px 8px #ffffff;
+    /* box-shadow: inset 8px 8px 8px #cbced1, */
+        /* inset -8px -8px 8px #ffffff; */
 }
 
 
@@ -83,9 +83,7 @@ button:hover {
     cursor:pointer;
 }
 
-.enabled {
-    background-color:#313233 ;
-}
+
 
 
 @media (max-width:720px) {
@@ -106,4 +104,12 @@ button:hover {
     font-weight: 600;
     font-family: 'Courier New', Courier, monospace;
     color: whitesmoke;
+}
+
+.light {
+    background-color: #cbced1;
+}
+
+.black-text {
+    color: black;
 }
